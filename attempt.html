@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- link to stylesheet -->
+  <link rel="stylesheet" href="portfoliostyling.css" />
+  <!-- link to font share -->
+  <link href="https://api.fontshare.com/v2/css?f[]=pally@400,700,500&display=swap" rel="stylesheet">
+  <!--link to font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"
+  <!--link to cdjns font-awesome library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- cdnjs link to devicons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <!-- adding favicon to browser -->
+  <link rel="icon" type="image/x-icon" href="./docs/strawberry-favicon.ico">
+  <title>Maheerah's Portfolio</title>
+</head>
+
+<body>
+  <!-- navigation menu -->
+  <nav class="nav-bar">
+    <div id="nav-title"> <a href="#hero-section" id="nav-title-link">
+        <h2>✨ Maheerah Anwar ✨ </h2>
+      </a></div>
+    <!-- nav items -->
+    <ul class="nav-list">
+      <li><a href="#about-section" class="nav-links">About</a></li>
+      <li><a href="#projects-section" class="nav-links">Projects</a></li>
+      <li><a href="#contact-section" class="nav-links">Contact</a></li>
+      <!-- insert link to pdf version of your resume -->
+      <li><a href="C:\Users\mahee\coding\maheerah-portfolio\resume_maheerah_anwar (1).pdf" class="nav-links">Resume</a></li>
+    </ul>
+  </nav>
+  <!-- hero section -->
+  <section id="hero-section">
+    <header id="hero-header">
+      <h1 class="section-header">Hi I'm Maheerah 👋</h1>
+    </header>
+    <p>Welcome to my Portfolio!</p>
+    <div class="box">
+      <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+      </ul>
+  </div>
+  </section>
+  <!-- about section -->
+  <section id="about-section">
+    <!-- container for text in about section -->
+
+    <div id="about-info">
+      <header>
+        <h2 class="section-header">About me ✨ </h2>
+      </header>
+      <p> I'm a third year student at the University of Toronto double majoring in International Development and Economics. In my free time I enjoy learning new skills, hence why I decided to learn software developemnt! Having a diverse skill set is always an asset that gives you perspective and fosters creativty.
+        When I'm not writing papers or on the computer I like hiking and rock climbing.</p>
+        <!-- feel free to create a separate skills section like those seen in other portfolios -->
+      <p>
+        Some of the languages and frameworks I am familiar with include:
+      </p>
+      <div>
+        <ul>
+          <li class="my-languages">
+            <!-- devicon icon for html -->
+            <i class="devicon-html5-plain"></i>
+            HTML
+          </li>
+          <li class="my-languages">
+            <!-- devicon icon for css -->
+            <i class="devicon-css3-plain"></i>
+            CSS
+          </li>
+          <li class="my-languages">
+            <!-- devicon icon for javascript -->
+            <i class="devicon-javascript-plain"></i>
+            Javascript
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- container for about section's image -->
+    <div id="image-container">
+      <img src="Screenshot 2024-07-25 225812.png" alt="about-image">
+    </div>
+
+  </section>
+  <!-- project section -->
+  <section id="projects-section">
+    <header>
+      <h2 class="section-header">My Projects 🚀</h2>
+    </header>
+    <div class="grid-container">
+      <!-- project #1 -->
+      <!-- add link to future project here -->
+      <a href="https://wit-portfolio.netlify.app/">
+      <div class="grid-item">
+        <!-- project image container -->
+        <div>
+          <img src="Portfolio Display Final.png" alt="image of isolated macbook mockup containing portfolio as a project" style="max-width:100%;
+          max-height:100%" ;>
+        </div>
+        <!-- project header, description, and tech-stack -->
+        <div class="project-text">
+          <h3>WIT Portfolio</h3>
+          <p id="project-description"> Web developer portfolio built using a combination of HTML and CSS, made available through Git Hub.</p>
+          <ul>
+            <li class="tech-stack-item">HTML</li>
+            <li class="tech-stack-item">
+              CSS
+            </li>
+          </ul>
+        </div>
+      </div>
+    </a>
+      <!-- project #2 -->
+      <a href="">
+      <div class="grid-item">
+        <!-- project image container -->
+        <div>
+          <img src="To Do List Display.png" alt="image of isolated macbook mockup" style="max-width:100%;
+          max-height:100%" ;>
+        </div>
+        <!-- project header, description, and tech-stack -->
+        <div class="project-text">
+          <h3>To-Do List</h3>
+          <p id="project-description">A virtual to-do list that allows you to enter your daily tasks and rearrange them. Made available through Git Hub.</p>
+          <ul>
+            <li class="tech-stack-item">HTML</li>
+            <li class="tech-stack-item">CSS</li>
+            <li class="tech-stack-item">Javascript</li>
+          </ul>
+        </div>
+      </div>
+    </a>
+    </div>
+  </section>
+  <!-- contacts -->
+  <section id="contact-section">
+    <div id="contact-info">
+      <header>
+        <h2 id="contact-heading" class="section-header">Let's Connect 🧋 </h2>
+      </header>
+      <p id="contact-text">
+        🤔 Want't to have a conversation? Let's Connect! 
+      </p>
+      <div id="icon-container">
+        <a href="https://github.com/mahee045" class="contact-icons"><i class="fa-brands fa-github"
+            style="color: #45b69f;"></i></a>
+        <a href="https://ca.linkedin.com/in/maheerah-anwar-8899bb18b?original_referer=https%3A%2F%2Fwww.google.com%2F" class="contact-icons"><i class="fa-brands fa-linkedin"
+            style="color: #45b69f;"></i></a>
+      </div>
+    </div>
+    <div class="form-container">
+      <form action="mailto:maheerahanwar@gmail.com" method="post" enctype="text/plain">
+        <!-- name Field -->
+        <label for="name">Your name (required) </label><br>
+        <input type="text" class="text-input" id="name" name="contact-me" placeholder="name">
+        <br>
+        <!-- email Field-->
+        <label for="email">Email:</label><br>
+        <input class="text-input" type="email" id="email" name="contact-me" placeholder="email">
+        <br>
+        <!-- message field -->
+        <label for="message"> Your Message:</label> <br>
+        <textarea id="message" name="contact-me" placeholder="message"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="SEND MESSAGE">
+      </form>
+    </div>
+  </section>
+  <!-- footer section -->
+  <footer>
+    <p id="footer-text">💻 A Women in Tech (WIT) Project 💻 </p>
+  </footer>
+
+</body>
+
+</html>
